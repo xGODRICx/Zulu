@@ -1,8 +1,51 @@
+html, body{
+    height: 100%; 
+    margin: 0;
+}
+
 body {
-  
-    background-color: #0a0a0a;
+   background-color: rgb(39, 6, 39);
+   background-repeat: no-repeat;
+    background-size: cover;
    }
 
+   #mainBodyDiv {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+   header   {
+    justify-content: space-evenly;
+    text-align: start end;
+    font-size: 50px;
+   }
+
+   #mainParagraph {
+    justify-content: space-evenly;
+    border: 10px solid rgb(255, 255, 255)
+   }
+   h1 {
+    text-align: center;
+    color: rgb(39, 6, 39);
+    background-color: whitesmoke;
+   }
+   h2 {
+    text-align: center;
+    background-color: white;
+   }
+   h3 {
+    text-align: center;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+   }
+
+   footer {
+    text-align-last: left;
+    justify-content: space-between;
+   }
    
 
 
